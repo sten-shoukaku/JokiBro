@@ -1,0 +1,51 @@
+.header{
+    display: flex;
+    width: 100vw;
+    height: 5em;
+    align-items: center;
+    background-color: var(--main-color);
+}
+
+.header > #logo-container{
+    padding: 1em;
+    height: 3em;
+}
+
+.header > #logo-container > img{
+    max-height: 3em;
+    height: auto;
+    width: auto;
+}
+
+.header > #search-container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.header > #search-container > #search-box{
+    padding: 1em 1em 1em 1em;
+}
+
+.header > #search-container > #search-box > #search-text{
+    height: 3em;
+    width: 70vw;
+    border-radius: 1.5em;
+    border-width: medium;
+    border-color: white;
+    padding: 0em 1.5em 0em 1.5em;
+}
+
+.header > #search-container > #search-button{
+    height: 3em;
+    width: 3em;
+    border-radius: 1.5em;
+    border-width: medium;
+    border-color: white;
+    color: var(--main-color);
+}
+
+.header > #search-container > #search-button:hover{
+    color: white;
+    background-color: var(--main-color);
+}

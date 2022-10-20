@@ -1,0 +1,22 @@
+h1{
+    font-weight: 700;
+}
+
+.text-maincolor{
+    color: var(--main-color)
+}
+
+.subsection-title{
+    margin: 1em 0.5em 0em 0.5em;
+}
+
+.page-back{
+    color: var(--main-color);
+    font-size: 1.5em;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+#container{
+    padding: 1em;
+}

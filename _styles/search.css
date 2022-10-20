@@ -1,0 +1,64 @@
+#search-result-container,
+.result-node-container{
+  display: flex;
+}
+
+#search-result-container {
+    flex-direction: column;
+    font-size: 1em;
+    /* padding: 0em 2em 0em 2em; */
+    padding: 2em 0em 0em 0em;
+    align-items: center;
+}
+
+.result-node-container {
+    flex-direction: row;
+    background-color: var(--main-color);
+    height: 12em;
+    border-width: 0em 0em 0.1em 0em;
+    border-color: var(--main-color);
+    background-color: white;
+    border-style: solid;
+    min-width: 80vw;
+    padding: 1em 2em 1em 2em;
+    align-items: center;
+    border-radius: 2em;
+    margin: 0.5em 0em 0.5em 0em;
+}
+
+.result-node-container:hover {
+  border-color: var(--main-color);
+  background-color: var(--main-color);
+}
+
+
+.result-node-art {
+    /* padding: 1em; */
+    height: 10em;
+    width: 10em;
+    border-style: solid;
+    border-color: var(--main-color);
+    border-radius: 1em;
+}
+
+.result-node-desc {
+    padding: 0em 0em 0em 2em;
+}
+
+.result-node-title, .result-node-dev{
+  text-align: left;
+}
+
+.result-node-dev {
+    font-size: 1em;
+}
+
+.result-node-container:hover > div > .result-node-title,
+.result-node-container:hover > div > .result-node-dev{  
+  color: white;
+}
+
+
+.result-node-title {
+    font-size: 2em;
+}

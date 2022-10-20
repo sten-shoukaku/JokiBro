@@ -1,0 +1,151 @@
+.gamepage-main-container{
+    display: flex;
+    flex-direction: column;
+    padding: 1em 0em 1em 0em;
+    align-items: center;
+}
+
+.game-desc-container {
+    display: flex;
+    padding: 1em 0em 2em 0em;
+}
+
+img#game-desc-art {
+    max-width: 15em;
+    max-height: 15em;
+    width: 20vw;
+    height: 20vw;
+    margin: 1em;
+    border-radius: 2em;
+    border-color: var(--main-color);
+    border-style: solid;
+}
+
+div#game-desc {
+    padding: 1em;
+}
+
+h1#game-desc-title {
+    font-size: 3em;
+}
+
+p#game-desc-dev {
+    font-size: 1.5em;
+}
+
+.gamepage-button{
+    padding: 1em 2em;
+    border-radius: 1em;
+    border-color: var(--main-color);
+    border-style: solid;
+    cursor: pointer;
+}
+
+.game-user-action-container {
+    height: 3em;
+}
+
+button#game-order-button{
+    background: var(--main-color);
+    color: white;
+    margin-right: 1em;
+}
+
+button#game-order-button:hover{
+    transition: 0.2s ease-in-out;
+    background: transparent;
+    border-color: var(--red-color);
+    color: var(--red-color);
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+}
+
+button#game-wishlist-button{
+    background: transparent;
+    color: var(--main-color);
+}
+
+button#game-wishlist-button:hover{
+    transition: 0.2s ease-in-out;
+    background: var(--green-color);
+    border-color: var(--green-color);
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+}
+
+.game-recommended-jockey {
+    display: flex;
+    padding: 3em 0em 1em 0em;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jockey-list-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+/*     min-width: 50vw;
+    max-width: 80vw; */
+    width: 60vw;
+    margin: 1em;
+    height: 10em;
+    color: var(--main-color);
+    border-style: solid;
+    border-radius: 2em;
+    border-width: 0.2em;
+    padding: 0em 2vw;
+    justify-content: flex-start;
+}
+
+.jockey-list-art {
+    height: 7em;
+    width: 7em;
+    border-color: var(--main-color);
+    border-style: inset;
+    border-width: 0.2em;
+    margin: 0.5em;
+    border-radius: 1em;
+}
+
+.jockey-list-desc {
+    margin: 0.5em;
+}
+
+.jockey-list-container:hover {
+    color: white;
+    border-color: var(--main-color);
+    background-color: var(--main-color);
+}
+
+.jockey-order-menu-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60vw;
+    justify-content: space-around;
+    padding: 0em 0em 1em 0em;
+}
+
+button.jockey-order-menu-button {
+    background: white;
+    padding: 1em;
+    min-width: 10em;
+    width: 15vw;
+    border-radius: 1em;
+    border-color: var(--main-color);
+    font-weight: 600;
+    margin: 1em;
+}
+
+button.jockey-order-menu-button:hover {
+    background: var(--green-color);
+    color: white;
+}
+
+button#jockey-order-menu-button-order:hover {
+    background: var(--red-color);
+    color: white;
+}
